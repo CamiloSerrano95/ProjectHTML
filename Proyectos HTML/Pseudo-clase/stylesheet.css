@@ -1,0 +1,32 @@
+a:link{ /*Enlace sin visitar*/
+    text-decoration:none;
+    color:#008B45;
+}
+
+a:hover{/*Enlace sobre el que el puntero va a pasar*/
+    color:#00FF00;
+}
+
+a:visited{/*Enlace que ha sido visitado*/
+    color:#EE9A00;
+}
+
+p:first-child{/*Darle color rojo al primer parrafo hijo*/
+    color:red;
+}
+
+p:nth-child(2){/*letra para el segundo parrafo hijo*/
+    font-family:Tahoma;
+}
+
+p:nth-child(3){/*color para el tercer parrafo hijo*/
+    color:#CC0000;
+}
+
+p:nth-child(4){/*color para el cuarto parrafo hijo*/
+    color:#00FF00;
+}
+
+p:nth-child(5){/*tamaño letra para el quinto parrafo hijo*/
+    font-size:22px;
+}

@@ -1,0 +1,25 @@
+/* margin-top: algún valor  margen superior
+margin-right: algún valor margen derecho
+margin-bottom: algún valor margen inferior 
+margin-left: algún valor margen izquierdo
+
+TAmbien se puede de la siguiente manera:
+margin: 1px 2px 3px 4px;
+Donde establecerá un margen superior de 1 píxel, un margen derecho de de 2 pixeles, un margen inferior de 3 pixelesy un margen izquierda de 4 pixeles.
+*/
+
+/*Padding  es el espacio entre tu borde y su capa más interior: el contenido en sí.*/
+
+* {
+	border: 1px dashed black;
+}
+
+div {
+	padding:40px;
+    margin:20px 50px 10px 5px;
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #308014;
+}
